@@ -2,7 +2,7 @@
   "manifestVersion": 2,
   "id": "xclas721-theme",
   "name": "xclas721-theme",
-  "version": "0.1.0",
+  "version": "0.3.1",
   "description": "A dark teal app theme with matching code and terminal colors.",
   "license": "MIT",
   "engines": {
