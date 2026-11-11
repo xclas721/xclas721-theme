@@ -1,0 +1,28 @@
+{
+  "manifestVersion": 2,
+  "id": "xclas721-theme",
+  "name": "xclas721-theme",
+  "version": "0.1.0",
+  "description": "A dark teal app theme with matching code and terminal colors.",
+  "license": "MIT",
+  "engines": {
+    "orca": ">=1.4.246"
+  },
+  "execution": "data",
+  "contributes": {
+    "themes": [
+      {
+        "id": "xclas721-theme-dark",
+        "title": "xclas721-theme",
+        "path": "themes/dark.json"
+      }
+    ],
+    "terminalThemes": [
+      {
+        "id": "xclas721-theme-dark",
+        "title": "xclas721-theme",
+        "path": "terminal/dark.json"
+      }
+    ]
+  }
+}
