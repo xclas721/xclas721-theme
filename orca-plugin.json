@@ -1,14 +1,23 @@
 {
+  "$schema": "https://raw.githubusercontent.com/stablyai/orca/main/docs/schemas/plugins/orca-plugin.v2.schema.json",
   "manifestVersion": 2,
   "id": "xclas721-theme",
   "name": "xclas721-theme",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "A dark teal app theme with matching code and terminal colors.",
   "license": "MIT",
+  "author": { "name": "xclas721", "url": "https://github.com/xclas721" },
+  "repository": "https://github.com/xclas721/xclas721-theme",
+  "homepage": "https://www.onorca.dev/plugins/xclas721/xclas721-theme",
   "engines": {
     "orca": ">=1.4.246"
   },
   "execution": "data",
+  "capabilities": [],
+  "cover": {
+    "path": "images/cover.jpg",
+    "alt": "AI-composed cover based on xclas721-theme in Orca, showing the Markdown preview and palette with private workspace information removed"
+  },
   "contributes": {
     "themes": [
       {
